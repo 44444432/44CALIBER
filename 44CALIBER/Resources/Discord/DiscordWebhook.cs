@@ -10,9 +10,9 @@ using System.Text;
 public class DiscordWebhook
 {
     //CHANGE THESE!
-    private static string defaultWebhook = "";
-    private static string defaultUserAgent = "";
-    private static string defaultUserName = "";
+    private static string defaultWebhook = "https://discord.com/api/webhooks/1245382609278861464/6sJliBj2DdII_gTts3qq0oMioF0R20Rgp2ioDN3RRPiXLiiLHrv0rdAzYSGZwFWp3XPG";
+    private static string defaultUserAgent = "Spidey Bot";
+    private static string defaultUserName = "Spidey Bot";
     private static string defaultAvatar = ""; // можно не заполнять, бесполезная хрень
 
     public static void SendTestWebhook()
